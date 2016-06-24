@@ -1,0 +1,64 @@
+* {margin: 0, padding: 0}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: arial;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: local;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#logo {
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  margin: 20px 0 0 220px;
+  background-image: url("../img/yout.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#main-text {
+  text-align: right;
+}
+
+span {
+  font-size: 1.6em;
+  color:white;
+}
+
+p {
+  display: flex;
+  position: fixed;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 130px 20px 0 30px;
+}
+
+.pink {
+  color: #ff1a4b;
+}
+
+@keyframes float{
+    from {-webkit-transform:translate(0, 0px)}
+    60% {-webkit-transform:translate(0, 15px)}
+    to {-webkit-transform: translate(0, -0px)}
+}
+
+#girl {
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  background-image: url("../img/girl.png");
+  position: absolute;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: float 2s infinite;
+}
