@@ -46,9 +46,9 @@ p {
 }
 
 @keyframes float{
-    from {-webkit-transform:translate(0, 0px)}
-    60% {-webkit-transform:translate(0, 15px)}
-    to {-webkit-transform: translate(0, -0px)}
+    from {transform:translate(0, 0px); -webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px)}
+    60% {transform:translate(0, 15px); -webkit-transform:translate(0, 15px); -moz-transform:translate(0, 15px)}
+    to {transform: translate(0, -0px); -webkit-transform: translate(0, -0px); -moz-transform: translate(0, -0px)}
 }
 
 #girl {
@@ -60,5 +60,5 @@ p {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  animation: float 2s infinite;
+  animation: float 2s ease-in-out infinite;
 }
