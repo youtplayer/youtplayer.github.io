@@ -18,7 +18,7 @@ html, body {
   width: 115px;
   height: 115px;
   position: absolute;
-  margin: 20px 0 0 220px;
+  margin: 20px 0 0 185px;
   background-image: url("../img/yout.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@ p {
   position: fixed;
   font-style: italic;
   font-weight: bolder;
-  margin: 130px 20px 0 30px;
+  margin: 150px 20px 0 30px;
 }
 
 .pink {
