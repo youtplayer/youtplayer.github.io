@@ -62,15 +62,6 @@ html, body {
   animation: float 2s infinite;
 }
 
-.hr-pink {
-  margin: 0;
-  width: 70%;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid black;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 26, 75, 0.35), rgba(0, 0, 0, 0));
-}
-
 hr {
   margin: 10px 0 10px 0;
   width: 100%;
