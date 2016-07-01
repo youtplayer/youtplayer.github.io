@@ -70,9 +70,16 @@ hr {
 
 }
 
+@keyframes main-text{
+    0% {opacity:0; -webkit-transform:translate(0px, 0); -moz-transform:translate(0px, 0);}
+    50% {-webkit-transform: translate(15px, 0); -moz-transform: translate(15px, 0);}
+    100% {opacity:1;-webkit-transform: translate(0, 0); -moz-transform: translate(0, 0);}
+}
+
 #main-text {
   text-align: center;
   cursor: default;
+  animation: main-text 1.5s ease-in-out;
 }
 
 p {
