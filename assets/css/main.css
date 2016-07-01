@@ -27,6 +27,7 @@ html, body {
   color: white;
   font-size: 2em;
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 #social a:hover {
@@ -114,6 +115,7 @@ p {
     font-size: 1.3em;
     text-decoration: none;
     color: #262626;
+    transition: color 0.3s;
 }
 
 .download-for a:hover {
@@ -124,6 +126,7 @@ p {
     font-size: 1.1em;
     font-family: arial;
     color: #262626;
+    transition: color 0.3s;
 }
 
 .download-for a span:hover {
