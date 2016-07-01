@@ -65,10 +65,9 @@ html, body {
 hr {
   margin: 10px 0 10px 0;
   width: 100%;
-  height: 3px;
-  border: 0;
-  border-top: 1px solid #dddddd;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(221, 221, 221, 0.4), rgba(0, 0, 0, 0));
+  border: 2px solid black;
+  border-bottom: 2px solid #262626;
+
 }
 
 #main-text {
@@ -90,20 +89,19 @@ p {
 
 span {
   font-size: 1.9em;
-  color:white;
+  color: white;
 }
 
 .pink {
   color: #ff1a4b;
 }
 
-
 #platforms {
   display: flex;
   width: 100%;
-  height: auto;
+  height: 700px;
   margin-top: 200px;
-  background-color: white;
+  background-color: rgba(1, 1, 1, 0.7);
 }
 
 .os-logo{
@@ -113,22 +111,21 @@ span {
 .download-for {
   text-align: center;
   width: 100%;
-  margin: 20px 0 0 20px;
+  margin: 20px 20px 0 20px;
   padding: 30px;
-  background-color:white;
 }
 
 .bits {
   display: block;
   margin: 20px 0 20px 0;
-  color:#ff1a4b !important;
+  color: #ff1a4b !important;
 }
 
 .download-for i {
   display: block;
   text-align: center;
   font-size: 5em;
-  color: #ff1a4b;
+  color: #c4c4c4;
 }
 
 .download-for a {
@@ -137,7 +134,7 @@ span {
     width: 140px;
     font-size: 1.3em;
     text-decoration: none;
-    color: #262626;
+    color: #c4c4c4;
     transition: color 0.3s;
 }
 
@@ -148,7 +145,7 @@ span {
 .download-for a span {
     font-size: 1.1em;
     font-family: arial;
-    color: #262626;
+    color: #c4c4c4;
     transition: color 0.3s;
 }
 
