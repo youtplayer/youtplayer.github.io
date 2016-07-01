@@ -111,7 +111,9 @@ p {
 }
 
 .download-for a {
-    display: block;
+    
+    text-align: center;
+    width: 140px;
     font-size: 1.3em;
     text-decoration: none;
     color: #262626;
