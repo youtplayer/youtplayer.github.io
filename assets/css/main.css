@@ -77,9 +77,26 @@ hr {
 
 p {
   display: flex;
+  flex-flow: column;
+  align-items: center;
   font-style: italic;
   font-weight: bolder;
 }
+
+#description {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+span {
+  font-size: 1.9em;
+  color:white;
+}
+
+.pink {
+  color: #ff1a4b;
+}
+
 
 #platforms {
   display: flex;
@@ -137,14 +154,4 @@ p {
 
 .download-for a span:hover {
     color: #ff1a4b;
-}
-
-
-span {
-  font-size: 1.9em;
-  color:white;
-}
-
-.pink {
-  color: #ff1a4b;
 }
