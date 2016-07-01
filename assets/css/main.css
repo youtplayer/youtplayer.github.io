@@ -112,8 +112,12 @@ span {
   background-color: rgba(1, 1, 1, 0.7);
 }
 
+.version {
+  font-size: 1em;
+}
+
 .os-logo{
-  margin-bottom:50px;
+  margin-bottom:40px;
 }
 
 .download-for {
