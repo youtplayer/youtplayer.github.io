@@ -40,6 +40,12 @@ html, body {
   align-items: center;
 }
 
+@keyframes float{
+    from {-webkit-transform:translate(0, 0px); -moz-transform:translate(0, 0px);}
+    60% {-webkit-transform:translate(0, 15px); -moz-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px); -moz-transform: translate(0, -0px);}
+}
+
 #logo {
   width: 215px;
   height: 215px;
@@ -47,6 +53,7 @@ html, body {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 90px 0 40px 0;
+  animation: float 2s infinite;
 }
 
 .hr-pink {
@@ -111,7 +118,7 @@ p {
 }
 
 .download-for a {
-    
+
     text-align: center;
     width: 140px;
     font-size: 1.3em;
