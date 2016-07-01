@@ -87,6 +87,7 @@ p {
 .os-logo{
   margin-bottom:50px;
 }
+
 .download-for {
   text-align: center;
   width: 100%;
@@ -104,17 +105,31 @@ p {
 .download-for i {
   display: block;
   text-align: center;
-  font-size:5em;
-  color:#ff1a4b;
+  font-size: 5em;
+  color: #ff1a4b;
 }
 
 .download-for a {
+    display: block;
+    font-size: 1.3em;
+    text-decoration: none;
     color: #262626;
 }
 
-.download-for span {
+.download-for a:hover {
+    color: #ff1a4b;
+}
+
+.download-for a span {
+    font-size: 1.1em;
+    font-family: arial;
     color: #262626;
 }
+
+.download-for a span:hover {
+    color: #ff1a4b;
+}
+
 
 span {
   font-size: 1.9em;
