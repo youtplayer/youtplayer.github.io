@@ -129,7 +129,6 @@ span {
 }
 
 .download-for a {
-
     text-align: center;
     width: 140px;
     font-size: 1.3em;
@@ -153,7 +152,7 @@ span {
     color: #ff1a4b;
 }
 
-#payments {
+#footer {
   display: flex;
   align-items: center;
   flex-flow: column;
@@ -162,12 +161,31 @@ span {
   padding: 20px 0 20px 0;
 }
 
-#payments-text span {
+#footer span {
   display: flex;
   color: #262626;
-  margin-bottom: 20px;
+  font-size: 1em;
+  margin: 70px 0 0 0;
 }
 
-#payments a {
-  margin-right: 40px;
+#payments-text span {
+  display: flex;
+  font-size: 1.8em;
+  color: #262626;
+  margin-bottom: 30px;
+}
+
+#payments-img a {
+  margin-right: 30px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #262626;
+    transition: color 0.3s;
+    margin-left:3px;
+}
+
+#footer a:hover {
+    color: #ff1a4b !important;
 }
