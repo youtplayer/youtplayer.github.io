@@ -167,3 +167,7 @@ span {
   color: #262626;
   margin-bottom: 20px;
 }
+
+#payments a {
+  margin-right: 40px;
+}
