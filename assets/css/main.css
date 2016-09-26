@@ -109,6 +109,10 @@ span {
   margin-top: 200px;
 }
 
+#screenshot img {
+  box-shadow: 2px 2px 15px black;
+}
+
 #platforms {
   display: flex;
   width: 100%;
