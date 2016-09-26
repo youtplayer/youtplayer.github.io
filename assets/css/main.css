@@ -104,6 +104,11 @@ span {
   color: #ff1a4b;
 }
 
+#screenshot {
+  display: flex;
+  margin-top: 200px;
+}
+
 #platforms {
   display: flex;
   width: 100%;
