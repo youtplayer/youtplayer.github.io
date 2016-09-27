@@ -1,0 +1,19 @@
+html, body {
+  background-size: auto;
+}
+
+#social a {
+  font-size: 3em;
+}
+
+#content {
+  min-width: 480px;
+}
+
+#main-text {
+  max-width: 440px;
+}
+
+#description {
+  font-size: 1.8em;
+}
