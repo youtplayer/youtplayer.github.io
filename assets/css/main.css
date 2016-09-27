@@ -110,9 +110,8 @@ span {
   padding: 20px;
 }
 
-#screenshot img {
+#screenshot video {
   width: 100%;
-  height: 100%;
   box-shadow: 2px 2px 15px black;
 }
 
