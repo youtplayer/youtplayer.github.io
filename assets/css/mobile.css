@@ -14,6 +14,10 @@ html, body {
   max-width: 440px;
 }
 
+#downloads {
+  flex-wrap: wrap;
+}
+
 #description {
   font-size: 1.8em;
 }
