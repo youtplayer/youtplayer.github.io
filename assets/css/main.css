@@ -181,6 +181,10 @@ span {
     color: #ff1a4b;
 }
 
+.changelog {
+  font-size: 0.8em !important;
+}
+
 #footer {
   display: flex;
   align-items: center;
