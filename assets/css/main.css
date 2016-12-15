@@ -203,9 +203,15 @@ span {
 
 #payments-text span {
   display: flex;
+  text-align: center;
   font-size: 1.8em;
   color: #262626;
-  margin-bottom: 30px;
+  margin: 30px;
+}
+
+#payments-img form {
+  display: inline-flex;
+  margin-right: 30px;
 }
 
 #payments-img a {
