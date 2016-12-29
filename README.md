@@ -1,4 +1,5 @@
 # youtplayer.github.io
+[![Repo](https://img.shields.io/badge/go%20to-yout%20repository-brightgreen.svg)](https://github.com/youtplayer/yout)
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://youtplayer.github.io/)
 [![Platforms](https://img.shields.io/badge/platforms-osx%20%7C%20linux%20%7C%20windows-ff69b4.svg)](#)
 [![Paypal](https://img.shields.io/badge/donate%20using-paypal-green.svg)](https://youtplayer.github.io/#footer)
