@@ -1,4 +1,5 @@
 # youtplayer.github.io
+
 [![Repo](https://img.shields.io/badge/go%20to-yout%20repository-brightgreen.svg)](https://github.com/youtplayer/yout)
 [![Platforms](https://img.shields.io/badge/platforms-osx%20%7C%20linux%20%7C%20windows-ff69b4.svg)](#)
 [![Paypal](https://img.shields.io/badge/donate%20using-paypal-green.svg)](https://youtplayer.github.io/#footer)
@@ -11,6 +12,6 @@ Yout Player website. Yout is the new way to watch playlists from YouTube on Desk
 # Where's the code?
 I'm currently working in v2.0, so the code will be available at [Yout Repo](https://github.com/youtplayer/yout) when I release it. But, it's an Electron app, you have the code when you download Yout, ok?
 
-# Yout started getting commercials
+# Yout has started getting commercials
 
 I'm sorry about that. It will be fixed in v2.0 release.
