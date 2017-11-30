@@ -14,15 +14,3 @@ I'm currently working in v2.0, so the code will be available at [Yout Repo](http
 # Yout started getting commercials
 
 I'm sorry about that. It will be fixed in v2.0 release.
-
-# What to expect from the next release?
-
-- Remote Control via Mobile
-- No Ads
-- Unlimited Playlists
-- Indiviual videos can be played
-- Identify when you copy a YouTube link outside the app and ask you if you want to watch or add it when you get back to the app.
-- New Design
-- Playlist Roulette
-- Native Desktop Notifications
-- Search from YouTube
